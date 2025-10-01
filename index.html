@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<h2>CSS : nouveautés utiles</h2>
+<p>Découvrez les propriétés modernes pour créer des interfaces accessibles et responsives.</p>
+<a class="btn" href="#" aria-label="Lire plus sur les nouveautés CSS">Lire plus</a>
+</div>
+</article>
+</section>
+
+
+<!-- Ressources -->
+<section role="tabpanel" id="panel-res" aria-labelledby="tab-res" class="panel" hidden data-panel>
+<h2 id="res">Ressources pour apprendre</h2>
+<div class="links-grid">
+<div class="widget">
+<h3>HTML</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/fr/docs/Learn/HTML" target="_blank" rel="noopener">MDN — Apprendre le HTML</a></li>
+<li><a href="https://web.dev/learn/html/" target="_blank" rel="noopener">web.dev — Learn HTML</a></li>
+<li><a href="https://openclassrooms.com/fr/courses/1946386-prenez-en-main-le-HTML5" target="_blank" rel="noopener">OpenClassrooms — HTML5</a></li>
+</ul>
+</div>
+<div class="widget">
+<h3>CSS</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/fr/docs/Learn/CSS" target="_blank" rel="noopener">MDN — Apprendre le CSS</a></li>
+<li><a href="https://web.dev/learn/css/" target="_blank" rel="noopener">web.dev — Learn CSS</a></li>
+<li><a href="https://css-tricks.com/guides/" target="_blank" rel="noopener">CSS‑Tricks — Guides</a></li>
+</ul>
+</div>
+<div class="widget">
+<h3>Exercices</h3>
+<ul>
+<li><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank" rel="noopener">freeCodeCamp — Responsive Web Design</a></li>
+<li><a href="https://frontendmentor.io/challenges" target="_blank" rel="noopener">Frontend Mentor — Challenges</a></li>
+<li><a href="https://www.codecademy.com/learn/learn-html" target="_blank" rel="noopener">Codecademy — Learn HTML</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+
+<!-- Sidebar -->
+<aside class="sidebar">
+<div class="widget">
+<h3>Recherche</h3>
+<form role="search" class="search" onsubmit="return false" aria-label="Formulaire de recherche">
+<input type="search" placeholder="Rechercher…" aria-label="Rechercher" />
+<button class="btn" type="submit">OK</button>
+</form>
+</div>
+<div class="widget">
+<h3>Catégories</h3>
+<ul>
+<li><a href="#tab-home">Tutoriels</a></li>
+<li><a href="#tab-news">Actualités</a></li>
+<li><a href="#tab-res">Ressources</a></li>
+</ul>
+</div>
+<div class="widget">
+<h3>À propos</h3>
+<p>Un site pour apprendre le HTML & CSS avec de bons exemples et un design soigné — sans dossier images.</p>
+</div>
+</aside>
+</main>
+
+
+<footer class="site-footer">
+<div class="wrap">
+<p>© <span id="year"></span> Code Débutant — style WordPress (sans images)</p>
+</div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
